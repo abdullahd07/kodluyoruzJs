@@ -4,12 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (paragraf) {
         paragraf.innerHTML = "DOM Manipülasyonu yaptık!";
-
+        paragraf.style.color ="red"
     }
     else {
         console.log("paragraf id değeri bulunamadı")
     }
 
+    
 
 
 
