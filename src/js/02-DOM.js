@@ -1,16 +1,27 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
+
+    let paragraf = document.querySelector("p");
+
+    if (paragraf) {
+        paragraf.innerHTML = "DOM Manipülasyonu yaptık!";
+
+    }
+    else {
+        console.log("paragraf id değeri bulunamadı")
+    }
+
+
+
+
     let btn = document.querySelector("#btnClick");
 
-    if (btn)
-    {
-        btn.addEventListener("click",clicked)
-        console.log ("bulundu")
-            }
-            else 
-            console.log ("bulunamadı")
+    if (btn) {
+        btn.addEventListener("click", clicked)
+    }
+    else
 
-    function clicked(){
-           alert("Butona Tıklandı");
-           console.log ("tr test");
-           } 
+        function clicked() {
+            alert("Butona Tıklandı");
+        }
+
 });
