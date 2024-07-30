@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let paragraf = document.querySelector("p");
 
     if (paragraf) {
-        paragraf.innerHTML = "DOM Manipülasyonu yaptık!";
+        paragraf.innerHTML = "DOM Manipülasyonu yapıldı!";
         paragraf.style.color ="red"
     }
     else {
