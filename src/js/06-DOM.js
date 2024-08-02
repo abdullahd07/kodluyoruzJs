@@ -34,5 +34,3 @@ function itemList () {
 function isContains (){
     alert(paragraf.classList.contains("paragraf"))
 }
-
-
