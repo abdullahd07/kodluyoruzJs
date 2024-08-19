@@ -16,9 +16,7 @@ function zaman() {
 
     let myClock = document.querySelector("#date") // DOM ile saati yazdıracağımız div' e ulaştık
 
-    myClock.innerHTML = time + ' ' + day // dom ile ulastigimiz div'e innerHTML ile ekrana cikti vermemiz saglandi
-
-    
+    myClock.innerHTML = time + ' ' + day // dom ile ulastigimiz div'e innerHTML ile ekrana cikti vermemiz saglandi    
 
 }
-setInterval (zaman)
+setInterval (zaman,1000)
