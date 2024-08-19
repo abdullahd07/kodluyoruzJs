@@ -19,4 +19,4 @@ function zaman() {
     myClock.innerHTML = time + ' ' + day // dom ile ulastigimiz div'e innerHTML ile ekrana cikti vermemiz saglandi    
 
 }
-setInterval (zaman,1000)
+setInterval (zaman,1000) //test
